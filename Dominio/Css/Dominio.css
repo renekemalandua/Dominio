@@ -1,0 +1,168 @@
+:root{
+    --cor-principal:darkblue;
+    --cor-fundo: azure;
+    --cor-teste: red;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--cor-fundo);
+}
+.cadastrar{
+    position:absolute;
+    margin-top: 30%;
+
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.Ocultar{
+    display: none;
+}
+.Mostrar{
+    display: flex;
+}
+.titulo{
+    font-size: xx-large;
+}
+.in{
+    margin: 5px;
+    width: 300px;
+}
+.inImage{
+    display: none;
+}
+.lblFoto{
+    width: 90px;
+    height: 100px;
+    border-style: dashed;
+    border-width: 1px;
+    border-color: grey;
+    background-color: blanchedalmond;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+.ImgPrevia{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+.spliter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.inData{
+    width: 185px;
+}
+.inClasse{
+    width: 100px;
+}
+.btnAdd{
+    width: 100px;
+    background-color: rgb(45, 148, 45);
+    border-width: 1px;
+    color: aliceblue;
+}
+.conteiner{
+    background-color: var(--cor-fundo);
+    width: 500px;
+    box-shadow: 0px 0px 5px 0.5px;
+    border-radius: 10px;
+}
+.minhalista{
+    padding-left: 0px;
+}
+.conteiner .pessoa{
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    height: 150px;
+    background-color: var(--cor-fundo);
+    border-radius: 10px;
+    border-style: groove;
+    margin: 5px;
+}
+.conteiner .pessoa .img{
+    border-radius: 10px;
+}
+.conteiner .pessoa .info{
+    width: 100%;
+    border-radius: 10px;
+}
+.conteiner .pessoa .img .perfil{
+    width: 150px;
+    height: 100%;
+    border-radius: 10px;
+}
+.conteiner .pessoa .info p{
+    margin: 5px;
+    font-size: 17px;
+    margin-left: 10px;
+    color: black;
+    
+}
+.conteiner .pessoa .info .pNome{
+   font-size: 35px;
+   color: var(--cor-principal);
+}.conteiner .pessoa .info .pIdade{
+    
+}.conteiner .pessoa .info .pClasse{
+    
+}.conteiner .pessoa .info .pEscola{
+    
+}
+.conteiner .pessoa .info .pCategoria{
+    color: green;
+}
+.Domheader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+}
+.DomTitle{
+    height: 100%;
+    width: 90%;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--cor-principal);
+    font-size: 50px;
+}
+.DomAdd{
+    background-color: green;
+    height: 100%;
+    width: 10%;
+    border-radius: 500px;
+    margin-left: 2px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: azure;
+    font-size: 60px;
+    cursor: pointer;
+}
+.DomAdd:active{
+    transform: scale(0.7);
+    transition: transform .2s;
+}

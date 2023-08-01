@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dominio</title>
+    <link rel="stylesheet" href="Css/Dominio.css">
+</head>
+<body>
+    <fieldset class="cadastrar">
+        <label for="img1" class="lblFoto" tabindex="0">
+            <input id="img1" type="file" accept="image/*" class="in inImage">
+            <span class="ImgPrevia"></span>
+        </label>
+        <input class="in inNome" type="text" placeholder="Nome completo">
+        <div class="spliter">
+            <input class="in inData" type="date" placeholder="Data de nacimento">
+            <input class="in inClasse" type="text" placeholder="Classe actual">
+        </div>
+        <input class="in inEscola" type="text" placeholder="Nome da Escola">
+        <input class="in inFamily" type="text" placeholder="Familiaridade">
+        <span class="alertMessage" style="color: red; font-size: 14px;">*Verifique se Inseriu Correctamente Todos os Dados</span><br>
+        <button class="btnAdd">Adicionar</button>
+    </fieldset>
+    
+    <fieldset class="conteiner">
+        <div class="Domheader">
+            <div class="DomTitle">Dominio</div>
+            <div class="DomAdd">+</div>
+        </div>
+        <hr>
+        <ul  class="minhalista" type = "none"></ul> 
+    </fieldset>
+
+    <script src="javascript/Dominio.js"></script>
+</body>
+</html>
